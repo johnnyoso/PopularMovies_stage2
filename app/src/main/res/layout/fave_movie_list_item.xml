@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryLight">
+
+    <!--I'll try a linear layout showing only movie titles instead of the posters-->
+
+    <TextView
+        android:id="@+id/fave_movie_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/primary_text_light"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:padding="8dp"/>
+
+    <!-- A gray divider line at the bottom of each task -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerColor"/>
+
+</LinearLayout>

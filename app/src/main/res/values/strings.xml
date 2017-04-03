@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+
+    <!--ActivityMain-->
+    <string name="display_error">An error has occurred. Please try again by clicking refresh</string>
+
+    <string name="display_empty_page">Page is empty</string>
+
+    <!--JSONUtils Movie Details-->
+    <string name="page_number">page</string>
+
+    <string name="results_page">results</string>
+
+    <string name="movie_id">id</string>
+
+    <string name="original_title">original_title</string>
+
+    <string name="overview_string">overview</string>
+
+    <string name="release_d">release_date</string>
+
+    <string name="vote_score">vote_average</string>
+
+    <string name="poster_p">poster_path</string>
+
+    <string name="poster_size">w500/</string>
+
+    <string name="base_poster_path">http://image.tmdb.org/t/p/</string>
+
+    <!--JSONUtils Youtube Trailers-->
+    <string name="official_trailer_key">key</string>
+
+    <string name="official_trailer_name">name</string>
+
+    <!--Part of ParsedMovieData-->
+    <string name="movie_plot_s">Movie Plot: \n</string>
+
+    <string name="release_date_s">Release Date: </string>
+
+    <string name="user_rating_s">User Rating: </string>
+
+</resources>
